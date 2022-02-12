@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::before {
+  margin: 0;
+  padding: 0;
+}
+
+::after {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: auto;
+  padding: 1rem;
+  width: min(960px, 100%);
+}
+
+.block {
+  height: 5rem;
+}
+
+.block + .block {
+  margin-top: 1rem;
+}
