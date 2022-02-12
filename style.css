@@ -1,3 +1,17 @@
+:root {
+  --color-hsl-h: 94;
+  --color-hsl-s: 100%;
+  --color-hsl-l-1: 90%;
+  --color-hsl-l-2: 80%;
+  --color-hsl-l-3: 70%;
+  --color-hsl-l-4: 60%;
+  --color-hsl-l-5: 50%;
+  --color-hsl-l-6: 40%;
+  --color-hsl-l-7: 30%;
+  --color-hsl-l-8: 20%;
+  --color-hsl-l-9: 10%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -25,4 +39,40 @@
 
 .block + .block {
   margin-top: 1rem;
+}
+
+.block1 {
+  background-color: hsl(var(--color-hsl-h) var(--color-hsl-s) var(--color-hsl-l-1));
+}
+
+.block2 {
+  background-color: hsl(var(--color-hsl-h) var(--color-hsl-s) var(--color-hsl-l-2));
+}
+
+.block3 {
+  background-color: hsl(var(--color-hsl-h) var(--color-hsl-s) var(--color-hsl-l-3));
+}
+
+.block4 {
+  background-color: hsl(var(--color-hsl-h) var(--color-hsl-s) var(--color-hsl-l-4));
+}
+
+.block5 {
+  background-color: hsl(var(--color-hsl-h) var(--color-hsl-s) var(--color-hsl-l-5));
+}
+
+.block6 {
+  background-color: hsl(var(--color-hsl-h) var(--color-hsl-s) var(--color-hsl-l-6));
+}
+
+.block7 {
+  background-color: hsl(var(--color-hsl-h) var(--color-hsl-s) var(--color-hsl-l-7));
+}
+
+.block8 {
+  background-color: hsl(var(--color-hsl-h) var(--color-hsl-s) var(--color-hsl-l-8));
+}
+
+.block9 {
+  background-color: hsl(var(--color-hsl-h) var(--color-hsl-s) var(--color-hsl-l-9));
 }
