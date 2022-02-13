@@ -10,6 +10,15 @@
   --color-hsl-l-7: 30%;
   --color-hsl-l-8: 20%;
   --color-hsl-l-9: 10%;
+  --color-primary-1: hsl(var(--color-hsl-h) var(--color-hsl-s) var(--color-hsl-l-1));
+  --color-primary-2: hsl(var(--color-hsl-h) var(--color-hsl-s) var(--color-hsl-l-2));
+  --color-primary-3: hsl(var(--color-hsl-h) var(--color-hsl-s) var(--color-hsl-l-3));
+  --color-primary-4: hsl(var(--color-hsl-h) var(--color-hsl-s) var(--color-hsl-l-4));
+  --color-primary-5: hsl(var(--color-hsl-h) var(--color-hsl-s) var(--color-hsl-l-5));
+  --color-primary-6: hsl(var(--color-hsl-h) var(--color-hsl-s) var(--color-hsl-l-6));
+  --color-primary-7: hsl(var(--color-hsl-h) var(--color-hsl-s) var(--color-hsl-l-7));
+  --color-primary-8: hsl(var(--color-hsl-h) var(--color-hsl-s) var(--color-hsl-l-8));
+  --color-primary-9: hsl(var(--color-hsl-h) var(--color-hsl-s) var(--color-hsl-l-9));
 }
 
 * {
@@ -42,37 +51,37 @@
 }
 
 .block1 {
-  background-color: hsl(var(--color-hsl-h) var(--color-hsl-s) var(--color-hsl-l-1));
+  background-color: var(--color-primary-1);
 }
 
 .block2 {
-  background-color: hsl(var(--color-hsl-h) var(--color-hsl-s) var(--color-hsl-l-2));
+  background-color: var(--color-primary-2);
 }
 
 .block3 {
-  background-color: hsl(var(--color-hsl-h) var(--color-hsl-s) var(--color-hsl-l-3));
+  background-color: var(--color-primary-3);
 }
 
 .block4 {
-  background-color: hsl(var(--color-hsl-h) var(--color-hsl-s) var(--color-hsl-l-4));
+  background-color: var(--color-primary-4);
 }
 
 .block5 {
-  background-color: hsl(var(--color-hsl-h) var(--color-hsl-s) var(--color-hsl-l-5));
+  background-color: var(--color-primary-5);
 }
 
 .block6 {
-  background-color: hsl(var(--color-hsl-h) var(--color-hsl-s) var(--color-hsl-l-6));
+  background-color: var(--color-primary-6);
 }
 
 .block7 {
-  background-color: hsl(var(--color-hsl-h) var(--color-hsl-s) var(--color-hsl-l-7));
+  background-color: var(--color-primary-7);
 }
 
 .block8 {
-  background-color: hsl(var(--color-hsl-h) var(--color-hsl-s) var(--color-hsl-l-8));
+  background-color: var(--color-primary-8);
 }
 
 .block9 {
-  background-color: hsl(var(--color-hsl-h) var(--color-hsl-s) var(--color-hsl-l-9));
+  background-color: var(--color-primary-9);
 }
